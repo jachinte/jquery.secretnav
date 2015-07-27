@@ -1,0 +1,47 @@
+{
+    "name": "jquery.secretnav",
+    "description": "SecretNav is a jQuery plugin that reveals a menu at the top or left of a web application, with a gorgeous 3d effect",
+    "categories": [ "UI", "DOM" ],
+    "version": "0.1.0",
+    "author": {
+        "name": "Miguel Jiménez",
+        "web": "http://migueljimenez.co"
+    },
+    "keywords": [
+	    "jquery-plugin",
+	    "jquery",
+	    "menu",
+	    "plugins",
+	    "navigation"
+	],
+    "homepage": "https://github.com/jachinte/jquery.secretnav",
+    "bugs": {
+        "web": "https://github.com/jachinte/jquery.secretnav/issues"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://raw.githubusercontent.com/jachinte/jquery.secretnav/master/LICENSE"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jachinte/jquery.secretnav.git"
+    },
+    "github": "https://github.com/jachinte/jquery.secretnav",
+    "main": [
+        "./dist/js/jquery.secretnav.min.js"
+    ],
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "demo",
+        "tests",
+        "changes.txt",
+        "package.json"
+    ],
+    "dependencies": {
+        "jquery": ">=1.7.2"
+    }
+}

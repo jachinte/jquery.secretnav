@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<meta name="description" content="SecretNav is a jQuery plugin that reveals an amazing navigation menu by using 3D effects" />
+		<meta name="keywords" content="3d page, menu, navigation, mobile, perspective, css transform, web development, web design" />
+		<meta name="author" content="Miguel Jiménez" />
+
+		<title>jQuery.SecretNav by Miguel Jiménez @jachinte</title>
+
+		<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+		<!-- csstransforms3d-shiv-cssclasses-prefixed-teststyles-testprop-testallprops-prefixes-domprefixes-load --> 
+		<script src="js/modernizr.custom.25376.js"></script>
+		<script src="../dist/js/jquery.secretnav.js"></script>
+		<link rel="stylesheet" type="text/css" href="../dist/css/jquery.secretnav.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	</head>
+	<body>
+		<div id="content">
+			<br /><br /><br />
+			<h1>Hi, I am Miguel Jiménez. You can find me at 
+				<a href="https://twitter.com/jachinte" target="_blank">@jachinte</a></h1>
+			<p>
+				This jquery plugin has been inspired by the amazing work done by the Codrops team - <a href="http://tympanus.net/codrops/2013/12/18/perspective-page-view-navigation/" target="_blank" title="Read the Codrops article">read more</a>.
+			</p>
+			<br />
+			<p>
+				<a href="#" class="open" title="Click me to reveal the menu!">[open menu]</a>
+			</p>
+			<br />
+			<p>
+				The menu can also be revealed from the top. See it in action <a href="index2.html">here</a>.	
+			</p>
+		</div>
+		<nav id="nav">
+			<a href="#">Home</a>
+			<a href="#">Products</a>
+			<a href="#">Services</a>
+			<a href="#">Contact</a>
+			<a href="#">About</a>
+			<a href="#">FAQ</a>
+		</nav>
+
+		<script>
+			$(function() {
+				$('#content').secretNav({
+					navSelector: '#nav',
+					openSelector: '.open',
+					position: 'left'
+				});
+			});
+		</script>
+	</body>
+</html>
