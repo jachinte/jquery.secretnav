@@ -5,6 +5,8 @@ SecretNav is a jQuery plugin that reveals a menu at the top or left of a web app
 
 This plugin has been inspired by the amazing work done by the [Codrops](http://tympanus.net/codrops/) team, specifically by the effects presented in [this](http://tympanus.net/codrops/2013/12/18/perspective-page-view-navigation/) article. The code is based in [their](https://github.com/codrops/PerspectivePageViewNavigation) initial implementation.
 
+![Demo](http://zippy.gfycat.com/CluelessDishonestAfricangroundhornbill.gif)
+
 ## Install
 
 The plugin requires jQuery 1.7 or higher. Install via [npm](https://www.npmjs.com/package/jquery.secretnav), [bower](https://github.com/jachinte/jquery.secretnav/blob/master/bower.json) or [download as a zip](https://github.com/jachinte/jquery.secretnav/archive/master.zip):
