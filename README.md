@@ -40,9 +40,9 @@ Then, initialize the plugin:
 ```javascript
 $( document ).ready(function() {
     $( '#container' ).SecretNav({		
-    	navSelector: '...',		// selector of the nav tag
-		openSelector: '...',	// selector of the menu's opener
-		position: '...'			// left | top
+    	navSelector: 'nav',			// selector of the nav tag
+		openSelector: '.open-menu',	// selector of the menu's opener
+		position: 'left'			// left | top
     });
 });
 ```
@@ -51,7 +51,7 @@ Your HTML should look similar to this:
 
 ```html
 <body>
-	<div id="container"> The content </div>
+	<div id="container"> The content ... <a class="open-menu">Open menu</a> </div>
 	<nav>
 		<a href="#">Link 1</a>
 		...
