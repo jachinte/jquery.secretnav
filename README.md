@@ -3,7 +3,7 @@
 # jQuery.SecretNav
 SecretNav is a jQuery plugin that reveals a menu at the top or left of a web application, with a gorgeous 3d effect.
 
-This plugin is inspired by the amazing work done by the [Codrops](http://tympanus.net/codrops/) team, specifically in the effects presented in [this](http://tympanus.net/codrops/2013/12/18/perspective-page-view-navigation/) article. The code is based in [their](https://github.com/codrops/PerspectivePageViewNavigation) implementation.
+This plugin has been inspired by the amazing work done by the [Codrops](http://tympanus.net/codrops/) team, specifically by the effects presented in [this](http://tympanus.net/codrops/2013/12/18/perspective-page-view-navigation/) article. The code is based in [their](https://github.com/codrops/PerspectivePageViewNavigation) initial implementation.
 
 ## Install
 
@@ -47,7 +47,7 @@ $( document ).ready(function() {
 });
 ```
 
-Your HTML should looks like this:
+Your HTML should look similar to this:
 
 ```html
 <body>
