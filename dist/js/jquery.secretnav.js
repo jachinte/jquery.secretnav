@@ -4,7 +4,7 @@
  * Licensed under the MIT license.
  * https://github.com/jachinte/jquery.secretnav.git
  * @author Miguel Jiménez
- * @version v0.1.0
+ * @version v0.1.1
  */
 ; (function (factory) {
     "use strict";
@@ -19,7 +19,7 @@
 
 	"use strict";
 
-		var pluginName = "secretNav",
+		var pluginName = "SecretNav",
 			defaults = {
 				navSelector: ".secretnav",
 				openSelector: ".open-secretnav",

@@ -11,7 +11,7 @@
 
 	"use strict";
 
-		var pluginName = "secretNav",
+		var pluginName = "SecretNav",
 			defaults = {
 				navSelector: ".secretnav",
 				openSelector: ".open-secretnav",
