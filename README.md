@@ -4,7 +4,7 @@
 [![npm version](https://badge.fury.io/js/jquery.secretnav.svg)](http://badge.fury.io/js/jquery.secretnav)
 [![Bower version](https://badge.fury.io/bo/jquery.secretnav.svg)](http://badge.fury.io/bo/jquery.secretnav)
 
-SecretNav is a jQuery plugin that reveals a menu at the top or left of a web application, with a gorgeous 3d effect.
+SecretNav is a small jQuery push menu plugin that slides out an off-canvas navigation from the edge of the screen while pushing the main content away with a fancy CSS3 powered 3D perspective effect.
 
 This plugin has been inspired by the amazing work done by the [Codrops](http://tympanus.net/codrops/) team, specifically by the effects presented in [this](http://tympanus.net/codrops/2013/12/18/perspective-page-view-navigation/) article. The code is based in [their](https://github.com/codrops/PerspectivePageViewNavigation) initial implementation.
 
