@@ -66,10 +66,6 @@
 
 						nav = $(this.settings.navSelector);
 
-						// perspectiveWrapper = document.getElementById("perspective"), // outerWrapper
-						// container = perspectiveWrapper.querySelector(".container"),  // wrapper 
-						// contentWrapper = container.querySelector(".wrapper");		// this.element
-
 					this.bindEvents(support, docscroll, clickevent, transEndEventName, 
 						containers.outerWrapper, containers.wrapper);
 

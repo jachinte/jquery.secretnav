@@ -4,7 +4,7 @@
  * Licensed under the MIT license.
  * https://github.com/jachinte/jquery.secretnav.git
  * @author Miguel Jiménez
- * @version v0.1.3
+ * @version v0.1.6
  */
 ; (function (factory) {
     "use strict";
@@ -73,10 +73,6 @@
 						containers = this.createStructure(),
 
 						nav = $(this.settings.navSelector);
-
-						// perspectiveWrapper = document.getElementById("perspective"), // outerWrapper
-						// container = perspectiveWrapper.querySelector(".container"),  // wrapper 
-						// contentWrapper = container.querySelector(".wrapper");		// this.element
 
 					this.bindEvents(support, docscroll, clickevent, transEndEventName, 
 						containers.outerWrapper, containers.wrapper);
