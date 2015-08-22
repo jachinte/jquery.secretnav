@@ -143,7 +143,7 @@
 							var onEndTransFn = function(ev) {
 								if(support && (
 										!$(ev.target).hasClass(self._classes.contentWrapper) ||
-										ev.propertyName.indexOf("transform") === -1)) {
+										ev.originalEvent.propertyName.indexOf("transform") === -1)) {
 									return;
 								}
 
@@ -159,8 +159,7 @@
 							};
 
 							if(support) {
-								$("body").on(transEndEventName, 
-									"." + self._classes.outerWrapper, onEndTransFn);
+								outerWrapper.on(transEndEventName, onEndTransFn);
 							} else {
 								onEndTransFn.call();
 							}
