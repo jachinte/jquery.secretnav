@@ -1,6 +1,6 @@
 {
   "name": "jquery.secretnav",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "SecretNav is a jQuery plugin that reveals a menu at the top or left of a web application, with a gorgeous 3d effect",
   "main": "dist/js/jquery.secretnav.js",
   "keywords": [
