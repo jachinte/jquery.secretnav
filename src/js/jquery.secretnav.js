@@ -112,14 +112,14 @@
 						docscroll = self.scrollY();
 
 						wrapper.css("cursor", "pointer");
+						outerWrapper.addClass("modalview");
 
 						// Change top of the content
 						$(self.element).css("top", docscroll * -1 + "px");
 						// Mac chrome issue:
 						document.body.scrollTop =
 							document.documentElement.scrollTop = 0;
-						// Add the modalview class
-						outerWrapper.addClass("modalview");
+
 						// Animate
 						setTimeout(function() { 
 							outerWrapper.addClass("animate"); 
@@ -139,7 +139,6 @@
 									return;
 								}
 
-								$(self.element).off(transEndEventName, onEndTransFn);
 								outerWrapper.removeClass("modalview");
 								wrapper.removeClass("transform");
 
@@ -148,6 +147,7 @@
 									document.documentElement.scrollTop = docscroll;
 								// change top of the content
 								$(self.element).css("top", "0px");
+								outerWrapper.off(transEndEventName, onEndTransFn);
 							};
 
 							if(support) {
