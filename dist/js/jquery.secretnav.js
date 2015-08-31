@@ -4,7 +4,7 @@
  * Licensed under the MIT license.
  * https://github.com/jachinte/jquery.secretnav.git
  * @author Miguel Jiménez
- * @version v0.1.7
+ * @version v0.1.8
  */
 ; (function (factory) {
     "use strict";
