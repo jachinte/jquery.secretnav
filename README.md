@@ -71,7 +71,7 @@ SecretNav can also be used with [require.js](http://requirejs.org/).
 
 ## Theming
 
-SecretNav comes with a basic styling. If you want to customize the appereance you can modify the styles in [src/sass/jquery.secretnav.scss](src/sass/jquery.secretnav.scss), and then re-run the grunt command to generate the distribution files again.
+SecretNav comes with a basic styling. If you want to customize the appearance you can modify the styles in [src/sass/jquery.secretnav.scss](src/sass/jquery.secretnav.scss), and then re-run the grunt command to generate the distribution files again.
 
 ## Contributing
 
