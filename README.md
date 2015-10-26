@@ -12,7 +12,7 @@ This plugin has been inspired by the amazing work done by the [Codrops](http://t
 
 ## Install
 
-The plugin requires jQuery 1.7 or higher. Install via [npm](https://www.npmjs.com/package/jquery.secretnav), [bower](https://github.com/jachinte/jquery.secretnav/blob/master/bower.json) or [download as a zip](https://github.com/jachinte/jquery.secretnav/archive/master.zip):
+The plugin requires jQuery 1.7 or higher, and Modernizr. Install via [npm](https://www.npmjs.com/package/jquery.secretnav), [bower](https://github.com/jachinte/jquery.secretnav/blob/master/bower.json) or [download as a zip](https://github.com/jachinte/jquery.secretnav/archive/master.zip):
 
 ```
 npm install jquery.secretnav
@@ -33,9 +33,10 @@ You can find the demo files in [here](demo/).
 
 ## Usage
 
-Include the jQuery library, the SecretNav plugin and its CSS styles. These files can be found in the [dist/](dist/) folder.
+Include jQuery and Modernzr, and then the SecretNav plugin and its CSS styles. These files can be found in the [dist/](dist/) folder. A custom build of Modernizr containing only what SecretNav requires can be found in [demo/js/](demo/js/)
 ```html
 <script src="path/to/jquery.js"></script>
+<script src="path/to/modernizr.js"></script>
 <script src="path/to/jquery.secretnav.min.js"></script>
 <link rel="stylesheet" type="text/css" href="path/to/jquery.secretnav.css" />
 ```
