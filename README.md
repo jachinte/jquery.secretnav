@@ -1,7 +1,3 @@
-<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/YTgqkzC8gPbnecNXzgofDQFC/jachinte/jquery.secretnav'>
-  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/YTgqkzC8gPbnecNXzgofDQFC/jachinte/jquery.secretnav.svg' />
-</a>
-
 # jQuery.SecretNav
 [![npm version](https://badge.fury.io/js/jquery.secretnav.svg)](http://badge.fury.io/js/jquery.secretnav)
 [![Bower version](https://badge.fury.io/bo/jquery.secretnav.svg)](http://badge.fury.io/bo/jquery.secretnav)
